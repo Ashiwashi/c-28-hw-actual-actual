@@ -2,7 +2,7 @@ class tree{
 	constructor(x,y){
 		this.x=x;
 		this.y=y;
-		this.image=loadImage("images/tree.png");
+		this.image=loadImage("tree.png");
 		this.body=Bodies.rectangle(this.x, this.y, 459, 10, {isStatic:true});
 		
 		World.add(world, this.body);
